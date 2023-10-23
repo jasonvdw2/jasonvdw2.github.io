@@ -1,0 +1,29 @@
+h1, h2{
+    color:red;
+}
+
+section>h1{
+    color:green;
+    font-size: 5em;
+}
+/* commentaar */
+/*
+h2{
+    color:blue;
+}
+ */
+
+
+/* class(meerdere keren gebrui0ken) */
+.styleBlue{
+    color:blue;
+    font-size: 4em;
+}
+.styleGreen{
+    color:green;
+}
+
+/* ID(1 keer gebruiken) */
+#opmaak {
+    color:yellow;
+}
