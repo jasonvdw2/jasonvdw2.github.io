@@ -1,0 +1,118 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 95%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top{
+    background: url("../images/bgsky3.jpg") #FFFFFF no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 200px;
+    color: darkblue;
+}
+
+#top h1{
+    font-size: 300%;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+#top p{
+    font-size: 240%;
+    font-weight: bold;
+}
+
+#top img{
+    position: absolute;
+    bottom: 60px;
+    right: 90px;
+}
+
+#news{
+    width: 25%;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    float: right;
+}
+
+#news p{
+    color: #666666;
+    font-size: 90%;
+    margin: 10px;
+}
+
+#news h1{
+    color: white;
+    background-color: blue;
+    font-size: 120%;
+}
+
+#main{
+    width: 75%;
+    margin-right: 10px;
+}
+
+.introduction{
+    background: url(../images/airbus_logo.jpg) no-repeat top left;
+    padding : 0 30px 20px 140px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.introduction span{
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.gallery{
+    background-color: #999999;
+    padding: 10px 0 10px 10px;
+}
+
+.fotokader{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    display: inline-block;
+    margin: 10px 10px;
+    border: 1px dashed #999999;
+}
+
+.fotokader > img{
+    padding: 10px;
+}
+
+.bottom{
+    clear: both;
+    text-align: left;
+    background-color: #666666;
+    color: white;
+    line-height: 2em;
+}
+
+.block{
+    display: inline-block;
+    margin-left: 120px;
+}
+nav a{
+    color: white;
+}
+
+nav a:hover{
+    color: red;
+}
+
+.copyright{
+    text-align: center;
+}
+
+
+
+
