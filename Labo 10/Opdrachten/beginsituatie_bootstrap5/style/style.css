@@ -1,0 +1,18 @@
+body{
+    width: 95%;
+    margin: auto;
+}
+
+.grijs{
+background-color: grey;
+}
+
+.lichtgrijs{
+    background-color: lightgray;
+}
+
+div[class*="col"]{
+    height: 200px;
+    border: solid white 5px;
+    box-sizing: border-box;
+}

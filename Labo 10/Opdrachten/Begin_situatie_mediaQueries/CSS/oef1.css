@@ -1,0 +1,59 @@
+body {
+	font: 1.2em/1.2 Helvetica, aria, sans-serif;
+	margin: 0 3%;
+	width: 95%;
+}
+
+h1 {
+	font-size: 1.8em;
+	margin: .9em 0 0 0;
+}
+h2 {
+	font-size: 1.5em;
+	margin: 1.5em 0 0 0;
+}
+
+
+
+figure {
+	background: black;
+	border-radius: 5px;
+	color: red;
+	margin: 0 0 25px 0;
+	padding: 10px;
+	text-align: center;
+	max-width: 100%;
+}
+
+figcaption {
+	font-size: .8em;
+}
+
+@media screen and (width >= 768px) {
+	body {
+	background-color: blueviolet;
+	}
+	figure{
+		background-color: blueviolet;
+		border: 5px solid black;
+		padding: 10px;
+		margin: 0 25px 25px 0;
+		width: 40%;
+		float: left;
+	}
+	img{
+		width: 100%;
+	}
+}
+@media screen and (width >= 992px) {
+	body{
+		background-color: #23c59a;
+	}
+	figure{
+		background-color: #23c59a;
+		width: 25%;
+	}
+	img{
+		width: 100%;
+	}
+}

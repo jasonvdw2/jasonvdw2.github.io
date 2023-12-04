@@ -1,0 +1,30 @@
+body{
+    width: 95%;
+    margin: auto;
+}
+
+.grijs{
+    background-color: grey;
+}
+
+.lichtgrijs{
+    background-color: lightgray;
+}
+
+div[class*="col"]{
+    height: 200px;
+    border: solid white 5px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 992px){
+    .col-md-3 {
+        width: 50%; /* Display two columns next to each other */
+        float: left;
+    }
+}
+@media screen and (max-width: 768px){
+    .col-md-3 {
+        width: 100%; /* Display two columns next to each other */
+        float: left;
+    }
+}
