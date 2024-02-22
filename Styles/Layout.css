@@ -1,0 +1,28 @@
+body{
+    width: 95%;
+    background: #2d2d2d;
+    color: white;
+}
+header{
+    text-align: center;
+}
+li{
+    list-style-type: '☸';
+    padding-inline-start: 1ch;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+article{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+footer{
+    padding-top: 200px;
+    text-align: center;
+}
