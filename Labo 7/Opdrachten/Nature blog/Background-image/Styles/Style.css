@@ -35,18 +35,15 @@ article{
 }
 
 article h1{
-    padding-top: 30px;
-    padding-bottom: 10px;
-    padding-left: 2px;
-    margin: 2px;
     font-size: 1.5em;
     text-decoration: underline;
+    color: #494949;
+    padding-left: 5px;
 }
 p{
     font-size: 0.9em;
     padding-left: 2px;
 }
-
-section{
-    margin: 0;
+a{
+    padding-left: 5px;
 }
