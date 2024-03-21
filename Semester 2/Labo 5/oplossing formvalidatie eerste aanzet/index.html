@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Oefening</title> 
+	<link rel="stylesheet" href="styles/styles.css">
+	<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+</head> 
+
+<body> 
+
+	<form>
+		<div class="line">
+			<label for="txtVoornaam">Voornaam</label>
+			<input type="text" id="txtVoornaam" />
+			<span class="errorMessage" id="errVoornaam"></span>
+		</div><br>
+		<div class="line2">
+			<label for="txtFamilienaam">Familienaam*:</label>
+			<input type="text" required="required" id="txtFamilienaam"/>
+			<span class="errorMessage"></span>
+		</div><br>
+		<div class="line3">
+			<label for="txtGeboorteDatum">Geboortedatum*:</label>
+			<input type="text" placeholder=" jjjj-mm-dd " required="required" id="txtGeboorteDatum"/>
+			<span class="errorMessage"></span>
+		</div><br>
+		<div class="line4">
+			<label for="txtEmail">Email*:</label>
+			<input type="email" required="required" id="txtEmail"/>
+			<span class="errorMessage" ></span>
+		</div><br>
+		<div class="line5">
+			<label for="txtAantalKinderen">Aantal kinderen:</label>
+			<input type="number" id="txtAantalKinderen"/>
+			<span class="errorMessage" ></span>
+		</div><br>
+		<input type="button" id="btnValideer" value="Valideer" />
+	</form>
+	<footer>
+		<a href="../index.html">Terug naar vorige pagina</a>
+	</footer>
+</body> 
+</html> 

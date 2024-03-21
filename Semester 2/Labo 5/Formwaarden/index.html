@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head> 
+	<title>Oefening</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+	<form>
+		<label for="ckbIsRoker">Is roker </label>	<input type="checkbox" id="ckbIsRoker" value="Is roker" /><br><br>
+
+		<label for="ckbIsRoker">Moedertaal </label>
+		<label for="rdbNederlands">Nederlands </label>	<input type="radio" name="language" id="rdbNederlands" value="nl" />
+		<label for="rdbFrans">Frans </label>	<input type="radio" name="language" id="rdbFrans" value="fr" />
+		<label for="rdbEngels">Engels </label>	<input type="radio" name="language" id="rdbEngels" value="en" /><br><br>
+
+		<label for="sltLand">Favoriete buurland </label>
+		<select name="select" id="sltLand" size="1">
+			<option value="Duitsland" selected ="selected">Duitsland</option>
+			<option value="Frankrijk">Frankrijk</option>
+			<option value="Nederland">Nederland</option>
+		</select><br><br>
+
+		<label for="sltBestelling">Bestelling </label>
+		<select name="select" id="sltBestelling" size="6" multiple="multiple">
+			<option value="aardappelen" selected ="selected">Aardappelen</option>
+			<option value="brood">Brood</option>
+			<option value="melk">Melk</option>
+			<option value="biefstuk">Biefstuk</option>
+			<option value="chips">Chips</option>
+			<option value="krant">Krant</option>
+		</select><br><br>
+
+		<input id="btnKnop" type="submit" value="Toon resultaat"/>
+	</form>
+
+	<script type="text/javascript" charset="utf-8" src="scripts/index.js"></script>
+	<footer>
+		<a href="../index.html">Terug naar vorige pagina</a>
+	</footer>
+</body> 
+</html> 
