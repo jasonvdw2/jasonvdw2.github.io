@@ -1,0 +1,25 @@
+.tableWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+.tableWrapper > div {
+    flex: 0 0 auto;
+    width: 25%;
+}
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #003871;
+    color: #fff;
+}
+tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
